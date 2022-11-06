@@ -10,4 +10,7 @@ public:
     void start() override;
 
     void update(float dt) override;
+
+private:
+    std::vector<glm::mat4> _staticCubes;
 };

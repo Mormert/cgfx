@@ -3,13 +3,9 @@
     "rendering_api": 0,
     "windowing_api": 0
   },
-  "framebuffer_settings": {
-    "fixed_axis_enum": 1,
-    "fixed_axis_pixels": 480
-  },
   "window_settings": {
     "windowCappedFps": false,
-    "window_display_cursor": true,
+    "window_display_cursor": false,
     "window_height": 1080,
     "window_height_min": 100,
     "window_icon_path": "EditorResources/jle_default_icon.png",
