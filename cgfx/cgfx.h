@@ -12,5 +12,7 @@ public:
     void update(float dt) override;
 
 private:
+    void generateCubePositions();
+
     std::vector<glm::mat4> _staticCubes;
 };
