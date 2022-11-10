@@ -5,7 +5,6 @@
 
 # jle game engine specific
 *.plog
-imgui.ini
 
 
 
@@ -71,7 +70,6 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
 *.iobj
 *.pch
 *.pdb
