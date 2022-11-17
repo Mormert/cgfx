@@ -2,6 +2,98 @@
     "_objects": [
         {
             "__obj_name": "jleObject",
+            "_childObjects": [
+                {
+                    "__obj_name": "jleObject",
+                    "_childObjects": [],
+                    "_custom_components": [
+                        {
+                            "_comp_name": "cMesh",
+                            "meshPath": "GR:models/teapot.obj"
+                        },
+                        {
+                            "_comp_name": "cTransform",
+                            "transform": {
+                                "v0": {
+                                    "w": 0.0,
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "v1": {
+                                    "w": 0.0,
+                                    "x": 0.0,
+                                    "y": 1.0,
+                                    "z": 0.0
+                                },
+                                "v2": {
+                                    "w": 0.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 1.0
+                                },
+                                "v3": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": -155.53558349609375,
+                                    "z": 0.0
+                                }
+                            }
+                        }
+                    ],
+                    "_instance_name": "teapot"
+                }
+            ],
+            "_custom_components": [
+                {
+                    "_comp_name": "cMesh",
+                    "meshPath": "GR:models/teapot.obj"
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 0.4208080470561981,
+                            "y": 0.2837105393409729,
+                            "z": -0.8611739277839661
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.039858222007751465,
+                            "y": -0.9545940160751343,
+                            "z": -0.29501092433929443
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": -0.906128466129303,
+                            "y": 0.08985371887683868,
+                            "z": -0.4131728708744049
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": -31.365718841552734,
+                            "y": 376.8850402832031,
+                            "z": -19.815710067749023
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "teapot"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cSkybox",
+                    "skyboxPath": "GR:skyboxes/yokohoma/yok"
+                }
+            ],
+            "_instance_name": "skybox"
+        },
+        {
+            "__obj_name": "jleObject",
             "_childObjects": [],
             "_custom_components": [
                 {
@@ -42,64 +134,13 @@
                         "v3": {
                             "w": 1.0,
                             "x": 0.0,
-                            "y": 0.0,
+                            "y": 349.3050842285156,
                             "z": 0.0
                         }
                     }
                 }
             ],
             "_instance_name": "camera"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "meshPath": "GR:models/teapot.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "teapot"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cSkybox",
-                    "skyboxPath": "GR:skyboxes/yokohoma/yok"
-                }
-            ],
-            "_instance_name": "skybox"
         }
     ],
     "_sceneName": "scene"

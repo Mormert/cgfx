@@ -1,6 +1,7 @@
 #pragma once
 
 #include "jleGame.h"
+#include "jleMesh.h"
 
 class cgfx final : public jleGame
 {
@@ -13,6 +14,9 @@ public:
 
 private:
     void generateCubePositions();
+
+    std::shared_ptr<jleMesh> _pbrCube;
+    std::shared_ptr<jleMesh> makePbrCube();
 
     std::vector<glm::mat4> _staticCubes;
 };
