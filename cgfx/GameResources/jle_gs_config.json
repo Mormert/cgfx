@@ -4,7 +4,7 @@
     "windowing_api": 0
   },
   "window_settings": {
-    "windowCappedFps": false,
+    "windowCappedFps": true,
     "window_display_cursor": false,
     "window_height": 1080,
     "window_height_min": 100,

@@ -149,7 +149,7 @@ cgfx::makePbrCube()
 
     auto cube = std::make_shared<jleMesh>();
 
-    cube->makeMesh(positions, normals, {}, faces);
+    // cube->makeMesh(positions, normals, {}, faces);
 
     return cube;
 }
