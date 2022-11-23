@@ -7,9 +7,47 @@
 
 #include <random>
 
+glm::vec3 albedo = glm::vec3(0.8, 0.665, 0.423);
+
+glm::vec3
+lambertian_brdf(glm::vec3 in_direction, glm::vec3 out_direction, glm::vec3 normal)
+{
+    return albedo / glm::pi<float>();
+}
+
+glm::vec3
+blinn_phong_brdf(glm::vec3 in_direction, glm::vec3 out_direction, glm::vec3 normal)
+{
+
+    glm::vec3 halfwayVector = glm::normalize(out_direction + in_direction);
+
+    float kL = 0.9;
+    float kG = 0.1;
+    float s = 25.0;
+    glm::vec3 pL = albedo;
+    auto pG = glm::vec3(1.0);
+
+    glm::vec3 retVec = kL * (pL / glm::pi<float>()) + kG * (pG * ((8.0f + s) / (8.0f * glm::pi<float>())) *
+                                                            pow(glm::max(glm::dot(normal, halfwayVector), 0.0f), s));
+    return retVec;
+}
+
 void
 cgfx::start()
 {
+
+    glm::vec3 normal{0.f, 0.f, 1.f};
+    glm::vec3 out_direction{0.f, 0.f, 1.f};
+    glm::vec3 in_direction{1.f, 0.f, 0.f};
+
+    for (int i = 0; i <= 180; i++) {
+        glm::mat4 rotation{1.f};
+        rotation = glm::rotate(rotation, glm::radians((float)-i), glm::vec3{0.f, 1.0f, 0.f});
+
+        glm::vec3 in_direction_it = glm::mat3(rotation) * in_direction;
+
+        std::cout << glm::length(blinn_phong_brdf(in_direction_it, out_direction, normal)) << std::endl;
+    }
 
     _pbrCube = makePbrCube();
 
@@ -119,7 +157,7 @@ cgfx::makePbrCube()
     };
     // clang-format on
 
-    // Dynamically calculate the normals for the cube.
+    // Compute the normals for the cube.
     // Add them to a normals map based on index, such
     // that all vertex points gets the correct normal.
 

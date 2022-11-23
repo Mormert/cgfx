@@ -1,0 +1,311 @@
+{
+    "_objects": [
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cCameraFPV",
+                    "farPlane": 10000.0,
+                    "fov": 60.0,
+                    "framebufferFixedAxis": 0,
+                    "framebufferSizeX": 1024,
+                    "framebufferSizeY": 1024,
+                    "framebufferUseFixedAxis": false,
+                    "matchFramebufferToWindowSize": false,
+                    "mouseSensitivity": 15.0,
+                    "moveSpeed": 150.0,
+                    "nearPlane": 0.10000000149011612,
+                    "perspective": true
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 0.0,
+                            "y": 349.3050842285156,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "camera"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLight",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.25999999046325684,
+                        "z": 0.07999999821186066
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": -147.43179321289063,
+                            "y": -176.265380859375,
+                            "z": -93.35977935791016
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "lightsrc"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cMesh",
+                    "meshPath": "GR:models/lucy.obj"
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": -0.9999994039535522,
+                            "y": -1.8199247051597922e-06,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 1.8199253872808185e-06,
+                            "y": -0.9999997615814209,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.9999978542327881
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "lucy"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLight",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": -66.56013488769531,
+                            "y": -368.0892333984375,
+                            "z": -159.65878295898438
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "lightsrc"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLight",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 18.388912200927734,
+                            "y": -198.15322875976563,
+                            "z": -231.5797119140625
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "lightsrc"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLight",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 57.4394416809082,
+                            "y": -219.58663940429688,
+                            "z": 240.2435760498047
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "lightsrc"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cMesh",
+                    "meshPath": "GR:models/plane.obj"
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": -1000.0007934570313,
+                            "y": -0.0018199272453784943,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.001819924102164805,
+                            "y": -999.9990234375,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 999.9913940429688
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "plane"
+        }
+    ],
+    "_sceneName": "scene2"
+}
