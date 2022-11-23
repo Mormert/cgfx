@@ -27,8 +27,9 @@ blinn_phong_brdf(glm::vec3 in_direction, glm::vec3 out_direction, glm::vec3 norm
     glm::vec3 pL = albedo;
     auto pG = glm::vec3(1.0);
 
-    glm::vec3 retVec = kL * (pL / glm::pi<float>()) + kG * (pG * ((8.0f + s) / (8.0f * glm::pi<float>())) *
-                                                            pow(glm::max(glm::dot(normal, halfwayVector), 0.0f), s));
+    glm::vec3 retVec =
+        kL * (pL / glm::pi<float>()) + kG * (pG * ((8.0f + s) / (8.0f * glm::pi<float>())) *
+                                             glm::pow(glm::max(glm::dot(normal, halfwayVector), 0.0f), s));
     return retVec;
 }
 
