@@ -55,50 +55,6 @@
             "_childObjects": [],
             "_custom_components": [
                 {
-                    "_comp_name": "cLight",
-                    "color": {
-                        "x": 1.0,
-                        "y": 0.25999999046325684,
-                        "z": 0.07999999821186066
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": -147.43179321289063,
-                            "y": -176.265380859375,
-                            "z": -93.35977935791016
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "lightsrc"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
                     "_comp_name": "cMesh",
                     "meshPath": "GR:models/lucy.obj"
                 },
@@ -133,138 +89,6 @@
                 }
             ],
             "_instance_name": "lucy"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cLight",
-                    "color": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": -66.56013488769531,
-                            "y": -368.0892333984375,
-                            "z": -159.65878295898438
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "lightsrc"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cLight",
-                    "color": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 18.388912200927734,
-                            "y": -198.15322875976563,
-                            "z": -231.5797119140625
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "lightsrc"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cLight",
-                    "color": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 57.4394416809082,
-                            "y": -219.58663940429688,
-                            "z": 240.2435760498047
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "lightsrc"
         },
         {
             "__obj_name": "jleObject",
@@ -345,6 +169,94 @@
                 }
             ],
             "_instance_name": "lucy"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLightDirectional",
+                    "color": {
+                        "x": 100.0,
+                        "y": 100.0,
+                        "z": 100.0
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 0.5050179958343506,
+                            "y": 0.6662670969963074,
+                            "z": -0.5486626625061035
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.8269034624099731,
+                            "y": -0.5556756854057312,
+                            "z": 0.08634218573570251
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": -0.24735336005687714,
+                            "y": -0.49729904532432556,
+                            "z": -0.8315708041191101
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 104.21279907226563,
+                            "y": -162.3309326171875,
+                            "z": 9.501805305480957
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "jleObject_9"
+        },
+        {
+            "__obj_name": "jleObject",
+            "_childObjects": [],
+            "_custom_components": [
+                {
+                    "_comp_name": "cLight",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "_comp_name": "cTransform",
+                    "transform": {
+                        "v0": {
+                            "w": 0.0,
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "v1": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "v2": {
+                            "w": 0.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0
+                        },
+                        "v3": {
+                            "w": 1.0,
+                            "x": 0.0,
+                            "y": -61.48570251464844,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ],
+            "_instance_name": "jleObject_6"
         }
     ],
     "_sceneName": "scene"
