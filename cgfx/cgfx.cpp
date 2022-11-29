@@ -53,7 +53,7 @@ cgfx::start()
     _pbrCube = makePbrCube();
 
     generateCubePositions();
-    loadScene<jleScene>(GAME_RESOURCES_DIRECTORY + "/scenes/sponza.scn");
+    loadScene<jleScene>(GAME_RESOURCES_DIRECTORY + "/scenes/scene.scn");
 }
 
 void
