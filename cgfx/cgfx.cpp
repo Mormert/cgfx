@@ -70,8 +70,6 @@ cgfx::update(float dt)
     auto model = glm::mat4{1.f};
     model = glm::translate(model, glm::vec3{200, 0, 0});
     model = glm::scale(model, glm::vec3{25.f});
-
-    gEngine->rendering().rendering3d().sendMesh(_pbrCube, model, INT32_MAX);
 }
 void
 cgfx::generateCubePositions()
