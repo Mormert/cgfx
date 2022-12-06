@@ -47,7 +47,7 @@ cgfx::start()
 
         glm::vec3 in_direction_it = glm::mat3(rotation) * in_direction;
 
-        std::cout << glm::length(blinn_phong_brdf(in_direction_it, out_direction, normal)) << std::endl;
+        //std::cout << glm::length(blinn_phong_brdf(in_direction_it, out_direction, normal)) << std::endl;
     }
 
     _pbrCube = makePbrCube();
