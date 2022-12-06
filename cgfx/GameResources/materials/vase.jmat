@@ -1,0 +1,6 @@
+{
+    "albedoPath" : "GR:models/texturetest/vase_round.tga",
+    "normalPath" : "GR:models/texturetest/vase_round_ddn.tga",
+    "metallicPath" : "",
+    "roughnessPath" : ""
+}
