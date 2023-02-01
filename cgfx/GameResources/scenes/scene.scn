@@ -1,512 +1,142 @@
 {
-    "_objects": [
+    "sceneName": "scene",
+    "_sceneObjects": [
         {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cCameraFPV",
-                    "farPlane": 10000.0,
-                    "fov": 60.0,
-                    "framebufferFixedAxis": 0,
-                    "framebufferSizeX": 1024,
-                    "framebufferSizeY": 1024,
-                    "framebufferUseFixedAxis": false,
-                    "matchFramebufferToWindowSize": false,
-                    "mouseSensitivity": 15.0,
-                    "moveSpeed": 150.0,
-                    "nearPlane": 0.10000000149011612,
-                    "perspective": true
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 0.0,
-                            "y": 349.3050842285156,
-                            "z": 0.0
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "_instanceName": "jleObject_1",
+                    "_instanceID": 0,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": -0.6330016851425171,
+                                "y": 0.7741504311561585,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": -0.7741504311561585,
+                                "y": -0.6330016851425171,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.9999972581863403,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 3.271493911743164,
+                                "y": -36.06919860839844,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
                         }
-                    }
+                    },
+                    "_childObjects": [],
+                    "_components": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "cMesh",
+                            "ptr_wrapper": {
+                                "id": 2147483650,
+                                "data": {
+                                    "_meshRef": {
+                                        "path": {
+                                            "_relativePath": "GR:models/ogre.obj"
+                                        }
+                                    },
+                                    "_materialRef": {
+                                        "path": {
+                                            "_relativePath": ""
+                                        }
+                                    },
+                                    "_meshPath": "",
+                                    "_materialPath": ""
+                                }
+                            }
+                        }
+                    ]
                 }
-            ],
-            "_instance_name": "camera"
+            }
         },
         {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "",
-                    "meshPath": "GR:models/lucy.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.12959995865821838,
-                            "y": -2.3586231634453725e-07,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 2.3586240160966554e-07,
-                            "y": -0.12960000336170197,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.12959975004196167
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 49.2320556640625,
-                            "y": 5.884463787078857,
-                            "z": -39.54942321777344
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483651,
+                "data": {
+                    "_instanceName": "jleObject_2",
+                    "_instanceID": 1,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": -7.6059112548828129,
+                                "y": -39.5774040222168,
+                                "z": 6.533451557159424,
+                                "w": 1.0
+                            }
                         }
-                    }
-                }
-            ],
-            "_instance_name": "lucy"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "",
-                    "meshPath": "GR:models/plane.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -520.2000122070313,
-                            "y": -0.0009467254276387393,
-                            "z": 0.0
+                    },
+                    "_childObjects": [],
+                    "_components": [
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "cLight",
+                            "ptr_wrapper": {
+                                "id": 2147483652,
+                                "data": {
+                                    "_color": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    }
+                                }
+                            }
                         },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0009467254276387393,
-                            "y": -520.2000122070313,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 520.2000122070313
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "id": 2147483653,
+                                "data": {
+                                    "_meshRef": {
+                                        "path": {
+                                            "_relativePath": "GR:models/ogre.obj"
+                                        }
+                                    },
+                                    "_materialRef": {
+                                        "path": {
+                                            "_relativePath": ""
+                                        }
+                                    },
+                                    "_meshPath": "",
+                                    "_materialPath": ""
+                                }
+                            }
                         }
-                    }
+                    ]
                 }
-            ],
-            "_instance_name": "plane"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "",
-                    "meshPath": "GR:models/lucy.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.12959995865821838,
-                            "y": -2.3586231634453725e-07,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 2.3586240160966554e-07,
-                            "y": -0.12960000336170197,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.12959975004196167
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 13.90951156616211,
-                            "y": 0.20769675076007843,
-                            "z": -25.793848037719727
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "lucy"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cLightDirectional",
-                    "color": {
-                        "x": 2.0,
-                        "y": 2.0,
-                        "z": 2.0
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 0.5050404071807861,
-                            "y": 0.6662734150886536,
-                            "z": -0.5486361384391785
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": -0.7647120952606201,
-                            "y": 0.050701193511486053,
-                            "z": -0.6423742175102234
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -0.4001828134059906,
-                            "y": 0.7439782023429871,
-                            "z": 0.5351167917251587
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 6.301258087158203,
-                            "y": -41.238094329833984,
-                            "z": 10.927475929260254
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_9"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cLight",
-                    "color": {
-                        "x": 50.0,
-                        "y": 50.0,
-                        "z": 50.0
-                    }
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": 1.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 1.0,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 82.80912780761719,
-                            "y": -64.87336730957031,
-                            "z": 36.24229049682617
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_6"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/floor.jmat",
-                    "meshPath": "GR:models/texturetest/floor.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -3.311095714569092,
-                            "y": 6.025948550814064e-06,
-                            "z": 0.0
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": -6.026101800671313e-06,
-                            "y": -3.3111798763275146,
-                            "z": 0.0
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 3.311159133911133
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": -53.571563720703125,
-                            "y": -3.676136016845703,
-                            "z": 63.66320037841797
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/vase.jmat",
-                    "meshPath": "GR:models/texturetest/wave.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -1.0216552019119263,
-                            "y": -0.009473069570958614,
-                            "z": -4.0176239013671875
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0004375705902930349,
-                            "y": -4.14559268951416,
-                            "z": 0.009663532488048077
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -4.017711162567139,
-                            "y": 0.001957484520971775,
-                            "z": 1.0216727256774902
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 86.10993194580078,
-                            "y": -1.1198502779006958,
-                            "z": 158.5211944580078
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/pillar.jmat",
-                    "meshPath": "GR:models/texturetest/pillar.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.09848315268754959,
-                            "y": 0.09093061089515686,
-                            "z": -0.3874596655368805
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": -0.014860862866044044,
-                            "y": -0.2628648579120636,
-                            "z": -0.057912908494472504
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -0.3973532021045685,
-                            "y": 0.0002023212582571432,
-                            "z": 0.10104533284902573
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 75.4530258178711,
-                            "y": 2.302137613296509,
-                            "z": 99.1419677734375
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/matta.jmat",
-                    "meshPath": "GR:models/texturetest/matta.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.8220756649971008,
-                            "y": -0.002366611734032631,
-                            "z": -0.9639191031455994
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 0.0001988082512980327,
-                            "y": -1.266899585723877,
-                            "z": 0.0029409362468868494
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -0.9639450311660767,
-                            "y": 0.0017571116331964731,
-                            "z": 0.8220934867858887
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 48.42522048950195,
-                            "y": -10.196557998657227,
-                            "z": 27.19257164001465
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/pillar.jmat",
-                    "meshPath": "GR:models/texturetest/pillar.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.10104100406169891,
-                            "y": -0.0009368801838718355,
-                            "z": -0.39734408259391785
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 4.3181531509617344e-05,
-                            "y": -0.41000017523765564,
-                            "z": 0.0009557408047839999
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -0.39735278487205505,
-                            "y": 0.00019368885841686279,
-                            "z": 0.10104277729988098
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 9.122976303100586,
-                            "y": 2.1644086837768555,
-                            "z": 43.15003967285156
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
-        },
-        {
-            "__obj_name": "jleObject",
-            "_childObjects": [],
-            "_custom_components": [
-                {
-                    "_comp_name": "cMesh",
-                    "materialPath": "GR:materials/pillar.jmat",
-                    "meshPath": "GR:models/texturetest/pillar.obj"
-                },
-                {
-                    "_comp_name": "cTransform",
-                    "transform": {
-                        "v0": {
-                            "w": 0.0,
-                            "x": -0.10104100406169891,
-                            "y": -0.0009368801838718355,
-                            "z": -0.39734408259391785
-                        },
-                        "v1": {
-                            "w": 0.0,
-                            "x": 4.3181531509617344e-05,
-                            "y": -0.41000017523765564,
-                            "z": 0.0009557408047839999
-                        },
-                        "v2": {
-                            "w": 0.0,
-                            "x": -0.39735278487205505,
-                            "y": 0.00019368885841686279,
-                            "z": 0.10104277729988098
-                        },
-                        "v3": {
-                            "w": 1.0,
-                            "x": 37.576377868652344,
-                            "y": 2.2475616931915283,
-                            "z": 77.38774871826172
-                        }
-                    }
-                }
-            ],
-            "_instance_name": "jleObject_7"
+            }
         }
-    ],
-    "_sceneName": "scene"
+    ]
 }

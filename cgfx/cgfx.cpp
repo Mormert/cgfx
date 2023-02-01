@@ -2,6 +2,7 @@
 
 #include "jleGameEngine.h"
 #include "jleRendering.h"
+#include "jleInput.h"
 
 #include <glm/ext/matrix_transform.hpp>
 

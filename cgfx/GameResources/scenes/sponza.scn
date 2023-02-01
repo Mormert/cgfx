@@ -12,7 +12,7 @@
                             "meshPath": "GR:models/teapot_flat.obj"
                         },
                         {
-                            "_comp_name": "cTransform",
+                            "_comp_name": "jleTransform",
                             "transform": {
                                 "v0": {
                                     "w": 0.0,
@@ -52,7 +52,7 @@
                             "meshPath": "GR:models/sphere.obj"
                         },
                         {
-                            "_comp_name": "cTransform",
+                            "_comp_name": "jleTransform",
                             "transform": {
                                 "v0": {
                                     "w": 0.0,
@@ -92,7 +92,7 @@
                             "meshPath": "GR:models/sphere_smooth.obj"
                         },
                         {
-                            "_comp_name": "cTransform",
+                            "_comp_name": "jleTransform",
                             "transform": {
                                 "v0": {
                                     "w": 0.0,
@@ -130,7 +130,7 @@
                     "meshPath": "GR:models/teapot.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -191,7 +191,7 @@
                     "perspective": true
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -235,7 +235,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -279,7 +279,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -319,7 +319,7 @@
                     "meshPath": "GR:models/sponza.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -363,7 +363,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -403,7 +403,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -443,7 +443,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -483,7 +483,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -523,7 +523,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -563,7 +563,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -603,7 +603,7 @@
                     "meshPath": "GR:models/ogre.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -643,7 +643,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -683,7 +683,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -723,7 +723,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -763,7 +763,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -803,7 +803,7 @@
                     "meshPath": "GR:models/ogre.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -847,7 +847,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -887,7 +887,7 @@
                     "meshPath": "GR:models/bunny.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -919,5 +919,5 @@
             "_instance_name": "bunny"
         }
     ],
-    "_sceneName": "sponza"
+    "sceneName": "sponza"
 }

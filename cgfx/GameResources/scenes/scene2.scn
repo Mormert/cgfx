@@ -19,7 +19,7 @@
                     "perspective": true
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -63,7 +63,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -103,7 +103,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -147,7 +147,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -191,7 +191,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -235,7 +235,7 @@
                     }
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -275,7 +275,7 @@
                     "meshPath": "GR:models/plane.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -315,7 +315,7 @@
                     "meshPath": "GR:models/lucy.obj"
                 },
                 {
-                    "_comp_name": "cTransform",
+                    "_comp_name": "jleTransform",
                     "transform": {
                         "v0": {
                             "w": 0.0,
@@ -347,5 +347,5 @@
             "_instance_name": "lucy"
         }
     ],
-    "_sceneName": "scene2"
+    "sceneName": "scene2"
 }
