@@ -6,70 +6,8 @@
             "ptr_wrapper": {
                 "id": 2147483649,
                 "data": {
-                    "_instanceName": "jleObject_1",
-                    "_instanceID": 0,
-                    "_transform": {
-                        "_local": {
-                            "value0": {
-                                "x": -0.6330016851425171,
-                                "y": 0.7741504311561585,
-                                "z": 0.0,
-                                "w": 0.0
-                            },
-                            "value1": {
-                                "x": -0.7741504311561585,
-                                "y": -0.6330016851425171,
-                                "z": 0.0,
-                                "w": 0.0
-                            },
-                            "value2": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 0.9999972581863403,
-                                "w": 0.0
-                            },
-                            "value3": {
-                                "x": 3.271493911743164,
-                                "y": -36.06919860839844,
-                                "z": 0.0,
-                                "w": 1.0
-                            }
-                        }
-                    },
-                    "_childObjects": [],
-                    "_components": [
-                        {
-                            "polymorphic_id": 2147483649,
-                            "polymorphic_name": "cMesh",
-                            "ptr_wrapper": {
-                                "id": 2147483650,
-                                "data": {
-                                    "_meshRef": {
-                                        "path": {
-                                            "_relativePath": "GR:models/ogre.obj"
-                                        }
-                                    },
-                                    "_materialRef": {
-                                        "path": {
-                                            "_relativePath": ""
-                                        }
-                                    },
-                                    "_meshPath": "",
-                                    "_materialPath": ""
-                                }
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "polymorphic_id": 1073741824,
-            "ptr_wrapper": {
-                "id": 2147483651,
-                "data": {
-                    "_instanceName": "jleObject_2",
-                    "_instanceID": 1,
+                    "_instanceName": "jleObject_5",
+                    "_instanceID": 5,
                     "_transform": {
                         "_local": {
                             "value0": {
@@ -91,52 +29,298 @@
                                 "w": 0.0
                             },
                             "value3": {
-                                "x": -7.6059112548828129,
-                                "y": -39.5774040222168,
-                                "z": 6.533451557159424,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
                                 "w": 1.0
                             }
                         }
                     },
                     "_childObjects": [],
-                    "_components": [
-                        {
-                            "polymorphic_id": 2147483650,
-                            "polymorphic_name": "cLight",
-                            "ptr_wrapper": {
-                                "id": 2147483652,
-                                "data": {
-                                    "_color": {
-                                        "x": 1.0,
-                                        "y": 1.0,
-                                        "z": 1.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "polymorphic_id": 1,
-                            "ptr_wrapper": {
-                                "id": 2147483653,
-                                "data": {
-                                    "_meshRef": {
-                                        "path": {
-                                            "_relativePath": "GR:models/ogre.obj"
-                                        }
-                                    },
-                                    "_materialRef": {
-                                        "path": {
-                                            "_relativePath": ""
-                                        }
-                                    },
-                                    "_meshPath": "",
-                                    "_materialPath": ""
-                                }
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483650,
+                "data": {
+                    "_instanceName": "jleObject_6",
+                    "_instanceID": 6,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
                             }
                         }
-                    ]
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483651,
+                "data": {
+                    "_instanceName": "jleObject_7",
+                    "_instanceID": 7,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483652,
+                "data": {
+                    "_instanceName": "jleObject_8",
+                    "_instanceID": 8,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483653,
+                "data": {
+                    "_instanceName": "jleObject_9",
+                    "_instanceID": 9,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483654,
+                "data": {
+                    "_instanceName": "jleObject_10",
+                    "_instanceID": 10,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483655,
+                "data": {
+                    "_instanceName": "jleObject_11",
+                    "_instanceID": 11,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483656,
+                "data": {
+                    "_instanceName": "jleObject_12",
+                    "_instanceID": 12,
+                    "_transform": {
+                        "_local": {
+                            "value0": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value1": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "value2": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 1.0,
+                                "w": 0.0
+                            },
+                            "value3": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        }
+                    },
+                    "_childObjects": [],
+                    "_components": []
                 }
             }
         }
-    ]
+    ],
+    "_objectsInstantiatedCounter": 13
 }
