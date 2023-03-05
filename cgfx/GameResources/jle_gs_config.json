@@ -5,7 +5,7 @@
     },
     "window_settings": {
         "windowCappedFps": false,
-        "window_display_cursor": false,
+        "window_display_cursor": true,
         "window_height": 1080,
         "window_height_min": 100,
         "window_icon_path": "EditorResources/jle_default_icon.png",
