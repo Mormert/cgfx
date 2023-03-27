@@ -2,7 +2,7 @@
     "_objects": [
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "cCameraFPV",
@@ -52,7 +52,7 @@
         },
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "cLight",
@@ -96,7 +96,7 @@
         },
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "cMesh",
@@ -136,7 +136,7 @@
         },
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "cLight",

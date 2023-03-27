@@ -2,7 +2,7 @@
     "_objects": [
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "jleTransform",
@@ -46,7 +46,7 @@
         },
         {
             "__obj_name": "jleObject",
-            "_childObjects": [],
+            "__childObjects": [],
             "_custom_components": [
                 {
                     "_comp_name": "cMesh",
