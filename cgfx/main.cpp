@@ -1,5 +1,7 @@
 #include "cgfx.h"
 
+#include "cSineWave.h"
+
 #include "jleKickStarter.h"
 
 int

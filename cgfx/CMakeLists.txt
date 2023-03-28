@@ -17,6 +17,6 @@ project(${JLE_GAME_BUILD})
 add_executable(${JLE_GAME_BUILD}
         "cgfx.cpp"
         "main.cpp"
-        )
+        "cSineWave.cpp")
 
 include(${JLE_ENGINE_PATH}/cmake/game2.cmake)
