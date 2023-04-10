@@ -4,7 +4,6 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "value0": {},
                 "sceneName": "scene",
                 "_sceneObjects": [
                     {
@@ -12,32 +11,38 @@
                         "ptr_wrapper": {
                             "id": 2147483650,
                             "data": {
-                                "_instanceName": "jleObject_0",
+                                "__templatePath": {
+                                    "nullopt": false,
+                                    "data": {
+                                        "_virtualPath": "GR:\\otemps\\outerTempl.jobj"
+                                    }
+                                },
+                                "_instanceName": "outerTempl",
                                 "__instanceID": 0,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
-                                            "x": 1.0,
-                                            "y": 0.0,
-                                            "z": 0.0,
+                                            "x": 9.951342582702637,
+                                            "y": 0.6958640217781067,
+                                            "z": -0.6975603699684143,
                                             "w": 0.0
                                         },
                                         "value1": {
-                                            "x": 0.0,
-                                            "y": 1.0,
-                                            "z": 0.0,
+                                            "x": -0.8992764353752136,
+                                            "y": 10.761391639709473,
+                                            "z": -2.093787431716919,
                                             "w": 0.0
                                         },
                                         "value2": {
-                                            "x": 0.0,
-                                            "y": 0.0,
-                                            "z": 1.0,
+                                            "x": 0.5499750971794128,
+                                            "y": 1.9512077569961548,
+                                            "z": 9.792365074157715,
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": 0.0,
-                                            "y": 0.0,
-                                            "z": 0.0,
+                                            "x": -1.0,
+                                            "y": 24.0,
+                                            "z": 7.0,
                                             "w": 1.0
                                         }
                                     }
@@ -48,7 +53,7 @@
                         }
                     }
                 ],
-                "_objectsInstantiatedCounter": 1
+                "_objectsInstantiatedCounter": 12
             }
         }
     }
