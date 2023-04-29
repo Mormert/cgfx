@@ -1,0 +1,31 @@
+{
+    "value0": {
+        "polymorphic_id": 2147483649,
+        "polymorphic_name": "jleMaterial",
+        "ptr_wrapper": {
+            "id": 2147483649,
+            "data": {
+                "albedoTextureRef": {
+                    "path": {
+                        "_virtualPath": "GR:/textures/palette.png"
+                    }
+                },
+                "normalTextureRef": {
+                    "path": {
+                        "_virtualPath": ""
+                    }
+                },
+                "metallicTextureRef": {
+                    "path": {
+                        "_virtualPath": ""
+                    }
+                },
+                "roughnessTextureRef": {
+                    "path": {
+                        "_virtualPath": ""
+                    }
+                }
+            }
+        }
+    }
+}
