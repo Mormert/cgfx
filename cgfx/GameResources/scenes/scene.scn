@@ -5,7 +5,7 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "sceneName": "scene",
+                "sceneName": "eh",
                 "_sceneObjects": [
                     {
                         "polymorphic_id": 1073741824,
@@ -15,8 +15,317 @@
                                 "__templatePath": {
                                     "nullopt": true
                                 },
-                                "_instanceName": "jleObject_0",
+                                "_instanceName": "car",
                                 "__instanceID": 0,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -4.805754661560059,
+                                            "y": -0.3060046136379242,
+                                            "z": 1.3457658290863038,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.3706992566585541,
+                                            "y": -4.982588768005371,
+                                            "z": 0.19081684947013856,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 1.3293994665145875,
+                                            "y": 0.28317829966545107,
+                                            "z": 4.811700344085693,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 21.64280128479004,
+                                            "y": -4.896304130554199,
+                                            "z": 1.2991597652435303,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483650,
+                                        "polymorphic_name": "cMesh",
+                                        "ptr_wrapper": {
+                                            "id": 2147483651,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/models/eh/eh_car.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/textures/eh_material.mat"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483652,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "light",
+                                "__instanceID": 1,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -0.6923173069953919,
+                                            "y": -0.6110976934432983,
+                                            "z": 0.3834894001483917,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.3313402235507965,
+                                            "y": -0.7414481043815613,
+                                            "z": -0.5833398103713989,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.6408737301826477,
+                                            "y": -0.27681607007980349,
+                                            "z": 0.7158640623092651,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": -30.99081802368164,
+                                            "y": -30.715238571166993,
+                                            "z": 23.33836555480957,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483651,
+                                        "polymorphic_name": "cLightDirectional",
+                                        "ptr_wrapper": {
+                                            "id": 2147483653,
+                                            "data": {
+                                                "value0": {
+                                                    "_color": {
+                                                        "x": 4.0,
+                                                        "y": 4.0,
+                                                        "z": 4.0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483654,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "car",
+                                "__instanceID": 2,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -4.3115410804748539,
+                                            "y": -0.12031761556863785,
+                                            "z": 2.5290470123291017,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.30543699860572817,
+                                            "y": -4.982593536376953,
+                                            "z": 0.28366830945014956,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 2.5134193897247316,
+                                            "y": 0.3991028964519501,
+                                            "z": 4.303886413574219,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 2.2312703132629396,
+                                            "y": -1.7382696866989136,
+                                            "z": 17.791658401489259,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2,
+                                        "ptr_wrapper": {
+                                            "id": 2147483655,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/models/eh/eh_car.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/textures/eh_material.mat"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483656,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "car",
+                                "__instanceID": 3,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -4.990630626678467,
+                                            "y": -0.3059508800506592,
+                                            "z": -4.975033274234875e-9,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.3054579794406891,
+                                            "y": -4.982590675354004,
+                                            "z": 0.2837011516094208,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": -0.01735972799360752,
+                                            "y": 0.28316953778266909,
+                                            "z": 4.991944789886475,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": -4.049300670623779,
+                                            "y": -1.8468475341796876,
+                                            "z": -328.29486083984377,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2,
+                                        "ptr_wrapper": {
+                                            "id": 2147483657,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/models/eh/eh_car.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/textures/eh_material.mat"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483658,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "fullScene",
+                                "__instanceID": 4,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -5.000001907348633,
+                                            "y": -0.000009099632734432817,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.000009099632734432817,
+                                            "y": -5.000001907348633,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 4.999971389770508,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 6.002443790435791,
+                                            "y": -1.2421894073486329,
+                                            "z": 1.3144524097442628,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2,
+                                        "ptr_wrapper": {
+                                            "id": 2147483659,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:models/eh/ehr.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:textures/ehr.mat"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483660,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "camera",
+                                "__instanceID": 5,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -46,12 +355,92 @@
                                     }
                                 },
                                 "__childObjects": [],
-                                "_components": []
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483652,
+                                        "polymorphic_name": "cCameraFPV",
+                                        "ptr_wrapper": {
+                                            "id": 2147483661,
+                                            "data": {
+                                                "value0": {
+                                                    "_perspective": true,
+                                                    "_farPlane": 10000.0,
+                                                    "_nearPlane": 0.10000000149011612,
+                                                    "_perspectiveFov": 90.0,
+                                                    "_framebufferSizeX": 1024,
+                                                    "_framebufferSizeY": 1024,
+                                                    "_framebufferUseFixedAxis": false,
+                                                    "_matchFramebufferToWindowSize": false
+                                                },
+                                                "_moveSpeed": 50.0,
+                                                "_mouseSensitivity": 15.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483662,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "jleObject_6",
+                                "__instanceID": 6,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 1.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 0.6374280452728272,
+                                            "y": -24.934707641601564,
+                                            "z": 41.77722930908203,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_name": "cLight",
+                                        "ptr_wrapper": {
+                                            "id": 2147483663,
+                                            "data": {
+                                                "_color": {
+                                                    "x": 100.0,
+                                                    "y": 100.0,
+                                                    "z": 100.0
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
                 ],
-                "_objectsInstantiatedCounter": 1
+                "_objectsInstantiatedCounter": 7
             }
         }
     }
