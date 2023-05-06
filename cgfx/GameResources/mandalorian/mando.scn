@@ -1,0 +1,196 @@
+{
+    "value0": {
+        "polymorphic_id": 2147483649,
+        "polymorphic_name": "jleScene",
+        "ptr_wrapper": {
+            "id": 2147483649,
+            "data": {
+                "sceneName": "Scene_2",
+                "_sceneObjects": [
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "Mando Helmet",
+                                "__instanceID": 0,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -31.990371704101564,
+                                            "y": -0.006320068147033453,
+                                            "z": 94.74504089355469,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0023195818066596987,
+                                            "y": -99.99915313720703,
+                                            "z": -0.0058873496018350128,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 94.74518585205078,
+                                            "y": 0.00031430739909410477,
+                                            "z": 31.990419387817384,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": -0.21311183273792268,
+                                            "y": -60.48432540893555,
+                                            "z": -0.012630189768970013,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483650,
+                                        "polymorphic_name": "cMesh",
+                                        "ptr_wrapper": {
+                                            "id": 2147483651,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/mandalorian/helmet.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/mandalorian/helmet.mat"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483652,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "Sun Light",
+                                "__instanceID": 1,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 0.38978031277656557,
+                                            "y": 0.857591986656189,
+                                            "z": 0.3354279100894928,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.10201552510261536,
+                                            "y": -0.4022292494773865,
+                                            "z": 0.9098376035690308,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.9152226448059082,
+                                            "y": -0.3204299807548523,
+                                            "z": -0.24427790939807893,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 1.75030517578125,
+                                            "y": 14.95556640625,
+                                            "z": 47.51900863647461,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483651,
+                                        "polymorphic_name": "cLightDirectional",
+                                        "ptr_wrapper": {
+                                            "id": 2147483653,
+                                            "data": {
+                                                "value0": {
+                                                    "_color": {
+                                                        "x": 8.0,
+                                                        "y": 8.0,
+                                                        "z": 8.0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483654,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "jleObject_3",
+                                "__instanceID": 3,
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 1.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483652,
+                                        "polymorphic_name": "cSkybox",
+                                        "ptr_wrapper": {
+                                            "id": 2147483655,
+                                            "data": {
+                                                "_skybox": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/skyboxes/sky.skyb"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "_objectsInstantiatedCounter": 4
+            }
+        }
+    }
+}

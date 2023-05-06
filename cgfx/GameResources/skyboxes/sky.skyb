@@ -1,0 +1,41 @@
+{
+    "value0": {
+        "polymorphic_id": 2147483649,
+        "polymorphic_name": "jleSkybox",
+        "ptr_wrapper": {
+            "id": 2147483649,
+            "data": {
+                "_right": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_right.jpg"
+                    }
+                },
+                "_left": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_left.jpg"
+                    }
+                },
+                "_bottom": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_bottom.jpg"
+                    }
+                },
+                "_top": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_top.jpg"
+                    }
+                },
+                "_front": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_front.jpg"
+                    }
+                },
+                "_back": {
+                    "path": {
+                        "_virtualPath": "GR:/skyboxes/sea_back.jpg"
+                    }
+                }
+            }
+        }
+    }
+}
