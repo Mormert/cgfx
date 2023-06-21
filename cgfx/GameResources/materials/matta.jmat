@@ -1,6 +1,0 @@
-{
-    "albedoPath" : "GR:models/texturetest/sponza_curtain_diff.tga",
-    "normalPath" : "GR:models/texturetest/sponza_curtain_ddn.tga",
-    "metallicPath" : "",
-    "roughnessPath" : ""
-}
