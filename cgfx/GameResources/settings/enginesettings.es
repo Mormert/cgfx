@@ -6,7 +6,7 @@
             "id": 2147483649,
             "data": {
                 "windowSettings": {
-                    "WindowTitle": "jle game engine",
+                    "WindowTitle": "CGFX",
                     "width": 1920,
                     "height": 1080,
                     "widthMin": 500,
