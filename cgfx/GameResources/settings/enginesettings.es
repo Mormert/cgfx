@@ -16,7 +16,7 @@
                     },
                     "isRezisable": true,
                     "shouldDisplayCursor": true,
-                    "isCappedFps": true
+                    "isCappedFps": false
                 }
             }
         }

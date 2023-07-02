@@ -15,86 +15,7 @@
                                 "__templatePath": {
                                     "nullopt": true
                                 },
-                                "_instanceName": "car",
-                                "__instanceID": 0,
-                                "_transform": {
-                                    "_local": {
-                                        "value0": {
-                                            "x": -3.9209489822387697,
-                                            "y": 3.0013139247894289,
-                                            "z": 0.7862774133682251,
-                                            "w": 0.0
-                                        },
-                                        "value1": {
-                                            "x": -1.8205469846725464,
-                                            "y": -3.251671552658081,
-                                            "z": 3.333447217941284,
-                                            "w": 0.0
-                                        },
-                                        "value2": {
-                                            "x": 2.5122926235198976,
-                                            "y": 2.3277692794799806,
-                                            "z": 3.642742156982422,
-                                            "w": 0.0
-                                        },
-                                        "value3": {
-                                            "x": 20.98787498474121,
-                                            "y": -150.33917236328126,
-                                            "z": 34.72187805175781,
-                                            "w": 1.0
-                                        }
-                                    }
-                                },
-                                "__childObjects": [],
-                                "_components": [
-                                    {
-                                        "polymorphic_id": 2147483650,
-                                        "polymorphic_name": "cMesh",
-                                        "ptr_wrapper": {
-                                            "id": 2147483651,
-                                            "data": {
-                                                "_meshRef": {
-                                                    "path": {
-                                                        "_virtualPath": "GR:/models/eh/eh_car.obj"
-                                                    }
-                                                },
-                                                "_materialRef": {
-                                                    "path": {
-                                                        "_virtualPath": "GR:/textures/eh_material.mat"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "polymorphic_id": 2147483651,
-                                        "polymorphic_name": "cRigidbody",
-                                        "ptr_wrapper": {
-                                            "id": 2147483652,
-                                            "data": {
-                                                "_mass": 1.0,
-                                                "_origin": {
-                                                    "x": -431602080.0,
-                                                    "y": -431602080.0,
-                                                    "z": -431602080.0
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    {
-                        "polymorphic_id": 1073741824,
-                        "ptr_wrapper": {
-                            "id": 2147483653,
-                            "data": {
-                                "__templatePath": {
-                                    "nullopt": true
-                                },
                                 "_instanceName": "light",
-                                "__instanceID": 1,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -126,10 +47,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483652,
+                                        "polymorphic_id": 2147483650,
                                         "polymorphic_name": "cLightDirectional",
                                         "ptr_wrapper": {
-                                            "id": 2147483654,
+                                            "id": 2147483651,
                                             "data": {
                                                 "value0": {
                                                     "_color": {
@@ -148,13 +69,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483655,
+                            "id": 2147483652,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "car",
-                                "__instanceID": 2,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -176,9 +96,9 @@
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": 2.2312703132629396,
-                                            "y": -1.7382696866989136,
-                                            "z": 17.791658401489259,
+                                            "x": 12.419254302978516,
+                                            "y": -1.036165714263916,
+                                            "z": 52.42649841308594,
                                             "w": 1.0
                                         }
                                     }
@@ -186,9 +106,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 2147483651,
+                                        "polymorphic_name": "cMesh",
                                         "ptr_wrapper": {
-                                            "id": 2147483656,
+                                            "id": 2147483653,
                                             "data": {
                                                 "_meshRef": {
                                                     "path": {
@@ -210,13 +131,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483657,
+                            "id": 2147483654,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "car",
-                                "__instanceID": 3,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -248,9 +168,9 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 3,
                                         "ptr_wrapper": {
-                                            "id": 2147483658,
+                                            "id": 2147483655,
                                             "data": {
                                                 "_meshRef": {
                                                     "path": {
@@ -272,13 +192,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483659,
+                            "id": 2147483656,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "fullScene",
-                                "__instanceID": 4,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -300,9 +219,9 @@
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": 6.002443790435791,
-                                            "y": -1.2421894073486329,
-                                            "z": 1.3144524097442628,
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
                                             "w": 1.0
                                         }
                                     }
@@ -310,9 +229,9 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 3,
                                         "ptr_wrapper": {
-                                            "id": 2147483660,
+                                            "id": 2147483657,
                                             "data": {
                                                 "_meshRef": {
                                                     "path": {
@@ -326,6 +245,16 @@
                                                 }
                                             }
                                         }
+                                    },
+                                    {
+                                        "polymorphic_id": 2147483652,
+                                        "polymorphic_name": "cRigidbody",
+                                        "ptr_wrapper": {
+                                            "id": 2147483658,
+                                            "data": {
+                                                "_mass": 0.0
+                                            }
+                                        }
                                     }
                                 ]
                             }
@@ -334,13 +263,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483661,
+                            "id": 2147483659,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "camera",
-                                "__instanceID": 5,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -375,7 +303,7 @@
                                         "polymorphic_id": 2147483653,
                                         "polymorphic_name": "cCameraFPV",
                                         "ptr_wrapper": {
-                                            "id": 2147483662,
+                                            "id": 2147483660,
                                             "data": {
                                                 "value0": {
                                                     "_perspective": true,
@@ -399,13 +327,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483663,
+                            "id": 2147483661,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "jleObject_6",
-                                "__instanceID": 6,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -427,9 +354,9 @@
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": -2.0551342964172365,
-                                            "y": -42.499794006347659,
-                                            "z": 70.43515014648438,
+                                            "x": 27.601146697998048,
+                                            "y": -20.443628311157228,
+                                            "z": 24.16272735595703,
                                             "w": 1.0
                                         }
                                     }
@@ -440,7 +367,7 @@
                                         "polymorphic_id": 2147483654,
                                         "polymorphic_name": "cLight",
                                         "ptr_wrapper": {
-                                            "id": 2147483664,
+                                            "id": 2147483662,
                                             "data": {
                                                 "_color": {
                                                     "x": 100.0,
@@ -457,13 +384,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483665,
+                            "id": 2147483663,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "car",
-                                "__instanceID": 7,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -495,9 +421,9 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 3,
                                         "ptr_wrapper": {
-                                            "id": 2147483666,
+                                            "id": 2147483664,
                                             "data": {
                                                 "_meshRef": {
                                                     "path": {
@@ -513,16 +439,11 @@
                                         }
                                     },
                                     {
-                                        "polymorphic_id": 3,
+                                        "polymorphic_id": 4,
                                         "ptr_wrapper": {
-                                            "id": 2147483667,
+                                            "id": 2147483665,
                                             "data": {
-                                                "_mass": 1.0,
-                                                "_origin": {
-                                                    "x": -431602080.0,
-                                                    "y": -431602080.0,
-                                                    "z": -431602080.0
-                                                }
+                                                "_mass": 1.0
                                             }
                                         }
                                     }
@@ -533,13 +454,12 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483668,
+                            "id": 2147483666,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
                                 },
                                 "_instanceName": "car",
-                                "__instanceID": 8,
                                 "_transform": {
                                     "_local": {
                                         "value0": {
@@ -561,9 +481,9 @@
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": 31.78797721862793,
-                                            "y": -158.606201171875,
-                                            "z": 32.55611038208008,
+                                            "x": 14.94601058959961,
+                                            "y": -161.848876953125,
+                                            "z": 29.840778350830079,
                                             "w": 1.0
                                         }
                                     }
@@ -571,9 +491,9 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 3,
                                         "ptr_wrapper": {
-                                            "id": 2147483669,
+                                            "id": 2147483667,
                                             "data": {
                                                 "_meshRef": {
                                                     "path": {
@@ -589,16 +509,361 @@
                                         }
                                     },
                                     {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483668,
+                                            "data": {
+                                                "_mass": 1.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483669,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "car",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": -3.9209489822387697,
+                                            "y": 3.0013139247894289,
+                                            "z": 0.7862774133682251,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": -1.8205469846725464,
+                                            "y": -3.251671552658081,
+                                            "z": 3.333447217941284,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 2.5122926235198976,
+                                            "y": 2.3277692794799806,
+                                            "z": 3.642742156982422,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": -10.673776626586914,
+                                            "y": -141.35342407226563,
+                                            "z": 34.35176086425781,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
                                         "polymorphic_id": 3,
                                         "ptr_wrapper": {
                                             "id": 2147483670,
                                             "data": {
-                                                "_mass": 1.0,
-                                                "_origin": {
-                                                    "x": -431602080.0,
-                                                    "y": -431602080.0,
-                                                    "z": -431602080.0
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/models/eh/eh_car.obj"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": "GR:/textures/eh_material.mat"
+                                                    }
                                                 }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483671,
+                                            "data": {
+                                                "_mass": 1.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483672,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "cube",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 1.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 24.66699981689453,
+                                            "y": -174.15585327148438,
+                                            "z": 19.100296020507814,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 3,
+                                        "ptr_wrapper": {
+                                            "id": 2147483673,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "ER:/models/cube.fbx"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483674,
+                                            "data": {
+                                                "_mass": 1.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483675,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "cube",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 0.43366920948028567,
+                                            "y": -1.9847462177276612,
+                                            "z": -0.4218537509441376,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.7109110951423645,
+                                            "y": -0.3013420104980469,
+                                            "z": 2.148582696914673,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": -0.8806630969047546,
+                                            "y": -0.2469969391822815,
+                                            "z": 0.25674721598625185,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 51.02989959716797,
+                                            "y": -40.23088455200195,
+                                            "z": -13.053625106811524,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 3,
+                                        "ptr_wrapper": {
+                                            "id": 2147483676,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "ER:/models/cube.fbx"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483677,
+                                            "data": {
+                                                "_mass": 0.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483678,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "cube",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 4.116935729980469,
+                                            "y": 0.0,
+                                            "z": -0.3601839244365692,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.024023285135626794,
+                                            "y": 0.9612617492675781,
+                                            "z": 0.274588406085968,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.08377918601036072,
+                                            "y": -0.27563726902008059,
+                                            "z": 0.9576038718223572,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 23.44662857055664,
+                                            "y": -74.19300842285156,
+                                            "z": -6.889327526092529,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 3,
+                                        "ptr_wrapper": {
+                                            "id": 2147483679,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "ER:/models/cube.fbx"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483680,
+                                            "data": {
+                                                "_mass": 1.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483681,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "cube",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 3.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": 3.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 3.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 10.959790229797364,
+                                            "y": -29.05089569091797,
+                                            "z": -23.786502838134767,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 3,
+                                        "ptr_wrapper": {
+                                            "id": 2147483682,
+                                            "data": {
+                                                "_meshRef": {
+                                                    "path": {
+                                                        "_virtualPath": "ER:/models/cube.fbx"
+                                                    }
+                                                },
+                                                "_materialRef": {
+                                                    "path": {
+                                                        "_virtualPath": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 4,
+                                        "ptr_wrapper": {
+                                            "id": 2147483683,
+                                            "data": {
+                                                "_mass": 0.0
                                             }
                                         }
                                     }
@@ -606,8 +871,7 @@
                             }
                         }
                     }
-                ],
-                "_objectsInstantiatedCounter": 9
+                ]
             }
         }
     }
