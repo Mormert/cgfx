@@ -1,0 +1,15 @@
+{
+    "value0": {
+        "polymorphic_id": 2147483649,
+        "polymorphic_name": "jleMaterial",
+        "ptr_wrapper": {
+            "id": 2147483649,
+            "data": {
+                "albedoTextureRef": "GR:/Wizard/Aqua_Wizard_Outfit_Diffuse.png",
+                "normalTextureRef": "",
+                "metallicTextureRef": "",
+                "roughnessTextureRef": ""
+            }
+        }
+    }
+}
