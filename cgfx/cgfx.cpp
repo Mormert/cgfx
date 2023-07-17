@@ -192,3 +192,6 @@ cgfx::makePbrCube()
 
     return cube;
 }
+cgfx::~cgfx() {
+    _activeScenes.clear();
+}

@@ -6,7 +6,7 @@
 class cgfx final : public jleGame
 {
 public:
-    ~cgfx() override = default;
+    ~cgfx() override;
 
     void start() override;
 

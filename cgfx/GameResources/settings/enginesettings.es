@@ -11,10 +11,10 @@
                     "height": 1080,
                     "widthMin": 500,
                     "heightMin": 500,
-                    "iconPath":  "ED:/jle_default_icon.png",
+                    "iconPath": "ED:/jle_default_icon.png",
                     "isRezisable": true,
                     "shouldDisplayCursor": true,
-                    "isCappedFps": false
+                    "isCappedFps": true
                 }
             }
         }
