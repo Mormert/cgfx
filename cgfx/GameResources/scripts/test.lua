@@ -1,5 +1,7 @@
 test = {}
 
+-- some other this text will be seen in the editor now
+
 function test.setup()
     obj = {}
     obj.somevar = "somehello string"
@@ -8,17 +10,24 @@ function test.setup()
     return obj
 end
 
+
 function test.start(self)
     LOGE("start")
-
-    LOGE(self.somevar .. "star t sssss asass")
 end
+
 
 function test.update(self, dt)
     self.counter = self.counter + 1
-    if (self.counter % 12 == 0) then
-        LOGE(tostring(self.counter))
+    if (self.counter % 60 == 0) then
+		LOGE(tostring(self.counter))
+		asd = self.object.transform
+		--bbbb = asd:loca2lPos()
+        LOGE(tostring(asd))
+   		--LOGE(tostring(self.object:transform():localPos().x))
+
     end
+
+    self.object.name = "yo  " .. tostring(self.counter)
 end
 
 function test.onDestroy(self)
