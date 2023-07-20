@@ -113,11 +113,15 @@
                                     },
                                     {
                                         "polymorphic_id": 2147483651,
-                                        "polymorphic_name": "cLuaScript",
+                                        "polymorphic_name": "cLight",
                                         "ptr_wrapper": {
                                             "id": 2147483654,
                                             "data": {
-                                                "_scriptRef": "GR:/scripts/test.lua"
+                                                "_color": {
+                                                    "x": 500.0,
+                                                    "y": 25.0,
+                                                    "z": 25.0
+                                                }
                                             }
                                         }
                                     }
@@ -165,8 +169,7 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483652,
-                                        "polymorphic_name": "cLight",
+                                        "polymorphic_id": 3,
                                         "ptr_wrapper": {
                                             "id": 2147483656,
                                             "data": {
@@ -381,7 +384,7 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_id": 2147483652,
                                         "polymorphic_name": "cLightDirectional",
                                         "ptr_wrapper": {
                                             "id": 2147483664,
@@ -472,15 +475,26 @@
                                             "w": 0.0
                                         },
                                         "value3": {
-                                            "x": 0.0,
-                                            "y": 0.0,
-                                            "z": 0.0,
+                                            "x": 16.831893920898439,
+                                            "y": -54.667572021484378,
+                                            "z": -29.964214324951173,
                                             "w": 1.0
                                         }
                                     }
                                 },
                                 "__childObjects": [],
-                                "_components": []
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_name": "cLuaScript",
+                                        "ptr_wrapper": {
+                                            "id": 2147483667,
+                                            "data": {
+                                                "_scriptRef": "GR:/scripts/test.lua"
+                                            }
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
