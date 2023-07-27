@@ -25,7 +25,7 @@ jobs:
           version: 3.1.9
 
       - name: Configure CMake with Emscripten SDK
-        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON
+        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DBUILD_PRECOMPILED_HEADER=ON
 
       - name: Build
         run:
