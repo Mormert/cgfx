@@ -11,24 +11,13 @@ jobs:
 
     name: Wasm_Release
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Update Git Submodules
         run: git submodule update --init --recursive
-
-      - name: Update Ccache and Ninja
-        shell: bash
-        run: |
-          choco install ccache
-          echo "=============="
-          ccache --version
-          echo "=============="
-          choco install ninja
-          echo "=============="
-          ninja --version
 
       - name: Ccache Setup
         uses: hendrikmuhs/ccache-action@v1.2.9
