@@ -20,3 +20,8 @@ add_executable(${JLE_GAME_BUILD}
         "cSineWave.cpp")
 
 include(${JLE_ENGINE_PATH}/cmake/game2.cmake)
+
+if (BUILD_GHA)
+    set(CMAKE_C_COMPILER ccache "${EMSCRIPTEN_ROOT_PATH}/emcc${EMCC_SUFFIX}")
+    set(CMAKE_CXX_COMPILER ccache "${EMSCRIPTEN_ROOT_PATH}/em++${EMCC_SUFFIX}")
+endif ()

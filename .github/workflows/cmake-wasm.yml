@@ -22,7 +22,7 @@ jobs:
       - name: Ccache Setup
         uses: hendrikmuhs/ccache-action@v1.2.9
         with:
-          key: wasm-${{env.BUILD_TYPE}}
+          key: wasm-Release
           variant: ccache
 
       - name: Setup Emscripten SDK
@@ -31,7 +31,7 @@ jobs:
           version: 3.1.9
 
       - name: Configure CMake with Emscripten SDK
-        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DBUILD_GHA=ON
 
       - name: Build
         run:
