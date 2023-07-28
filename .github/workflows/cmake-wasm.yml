@@ -19,13 +19,30 @@ jobs:
       - name: Update Git Submodules
         run: git submodule update --init --recursive
 
+      - name: Update Ccache and Ninja
+        shell: bash
+        run: |
+          choco install ccache
+          echo "=============="
+          ccache --version
+          echo "=============="
+          choco install ninja
+          echo "=============="
+          ninja --version
+
+      - name: Ccache Setup
+        uses: hendrikmuhs/ccache-action@v1.2.9
+        with:
+          key: win-${{env.BUILD_TYPE}}
+          variant: ccache
+
       - name: Setup Emscripten SDK
         uses: mymindstorm/setup-emsdk@v11
         with:
           version: 3.1.9
 
       - name: Configure CMake with Emscripten SDK
-        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DBUILD_PRECOMPILED_HEADER=ON
+        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
 
       - name: Build
         run:
