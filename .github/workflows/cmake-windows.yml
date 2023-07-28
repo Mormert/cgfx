@@ -24,8 +24,8 @@ jobs:
       - name: Update Git Submodules
         run: git submodule update --init --recursive
 
-      - name: Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.0.1
+      - name: setup devcmd
+        uses: ilammy/msvc-dev-cmd@v1.3.0
 
       - name: Run sccache-cache
         uses: mozilla-actions/sccache-action@v0.0.3
