@@ -24,6 +24,9 @@ jobs:
       - name: Update Git Submodules
         run: git submodule update --init --recursive
 
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.1
+
       - name: Run sccache-cache
         uses: mozilla-actions/sccache-action@v0.0.3
         with:
@@ -32,7 +35,7 @@ jobs:
       - name: Configure CMake
         # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
         # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
-        run: cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{matrix.build_type}} -DBUILD_EDITOR=OFF -G Ninja -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache
+        run: cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{matrix.build_type}} -DBUILD_EDITOR=OFF -G Ninja -DCMAKE_CXX_COMPILER=cl -DCMAKE_C_COMPILER=cl -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache
 
       - name: Build
         # Build your program with the given configuration
