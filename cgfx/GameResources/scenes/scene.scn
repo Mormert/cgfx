@@ -490,7 +490,8 @@
                                         "ptr_wrapper": {
                                             "id": 2147483667,
                                             "data": {
-                                                "_scriptRef": "GR:/scripts/test.lua"
+                                                "_scriptRef": "GR:/scripts/test.lua",
+                                                "_specializationScript": "local self = ...; self.counter=35252;"
                                             }
                                         }
                                     }
