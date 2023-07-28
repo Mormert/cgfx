@@ -2,6 +2,83 @@ test = {}
 
 -- some other this text will be seen in the editor now
 
+lol = { "asd", "asdsad" }
+
+WTFYAO = { "hej", 2, 5 }
+WTFYAO["asdasd"] = 1337.2
+WTFYAO["dadad"] = { lol, 1338 }
+WTFYAO["bbb"] = 631631.3
+WTFYAO["blublublublbub"] = jlePath.new("ER:asd/coo")
+WTFYAO["blublublubsslbub"] = vec4.new(1.5)
+WTFYAO["MADDAFAKASSSS"] = jleObject.new()
+WTFYAO["blublublubsslbu33b"] = vec4.new(2.5)
+
+
+function canBePrinted(item)
+    if (pcall(function()
+        pairs(item)
+    end)) then
+    else
+        return false
+    end
+    return true
+end
+
+function rPrint(s, l, i)
+    -- recursive Print (structure, limit, indent)
+    if (s ~= "_G") then
+        l = (l) or 100;
+        i = i or "";    -- default item limit, indent string
+        if (l < 1) then
+            print "ERROR: Item limit reached.";
+            return l - 1
+        end ;
+        local ts = type(s);
+        if (ts ~= "table") then
+            print(i, ts, s);
+            return l - 1
+        end
+        print(i, ts);           -- print "table"
+        for k, v in pairs(s) do
+            -- print "[KEY] VALUE"
+            rPrint(v, l, i .. "\t[" .. tostring(k) .. "]")
+            if (l < 0) then
+                break
+            end
+        end
+    end
+    return l
+end
+
+
+--local inspect = require("inspect")
+
+function test.printTable(item)
+
+    print_table(item)
+
+    --rPrint(WTFYAO)
+    --print(inspect(_G))
+
+    --print(DataDumper(WTFYAO))
+    --printtable(WTFYAO)
+
+    --[[for k,v in pairs(item) do
+        if k~="_G" then
+            if type(v)=="string" or type(v)=="number" then
+                print("G["..k.."]="..v)
+            elseif type(v)=="table" then
+                print("G["..k.."]=("..type(v)..")="..string.len(tostring(k)..tostring(v)))
+                test.printTable(v)
+
+            else
+                print("G["..k.."]=("..type(v)..")")
+            end
+        end
+    end]]
+end
+
+
 
 function test.update(self, dt)
 
@@ -26,6 +103,7 @@ function test.update(self, dt)
         -- LOGW(tostring(t))
 
         testVec3 = vec3.new(3, 2.525, 1.2) * vec3.new(5, 2, 5)
+        WTFYAO["rofl"] = testVec3
         -- LOGE(tostring(testVec3))
 
         local idx = self.counter % 10 + 1
@@ -37,23 +115,13 @@ function test.update(self, dt)
 
     end
 
-    if(self.counter % 250 == 0) then
-        local sceneObjects = self.object.scene:objects()
-        for k,v in pairs(sceneObjects) do
-            if(math.random(1,10) < 3) then
-                v:destroy()
-            end
-        end
-        
-    end
-
-    self.cLight.color = vec3.new(25,25,500 * math.sin(self.counter * 0.02) + 800)
+    self.cLight.color = vec3.new(25, 25, 500 * math.sin(self.counter * 0.02) + 800)
 
     -- self.object.name = "yo  " .. tostring(self.counter)
 end
 
 function test.setup()
-    obj = {}
+    local obj = {}
     obj.somevar = "somehello string"
     obj.counter = 0
 
