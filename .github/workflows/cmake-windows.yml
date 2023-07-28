@@ -24,8 +24,9 @@ jobs:
       - name: Update Git Submodules
         run: git submodule update --init --recursive
 
-      - name: setup devcmd
-        uses: ilammy/msvc-dev-cmd@v1.3.0
+      - name: Enable Developer Command Prompt
+        uses: ilammy/msvc-dev-cmd@v1.12.1
+
 
       - name: Run sccache-cache
         uses: mozilla-actions/sccache-action@v0.0.3
