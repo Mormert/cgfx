@@ -23,11 +23,22 @@ jobs:
       - name: Enable Developer Command Prompt
         uses: ilammy/msvc-dev-cmd@v1.12.1
 
+      - name: Update Ccache and Ninja
+        shell: bash
+        run: |
+          choco install ccache
+          echo "=============="
+          ccache --version
+          echo "=============="
+          choco install ninja
+          echo "=============="
+          ninja --version
 
       - name: Ccache for gh actions
         uses: hendrikmuhs/ccache-action@v1.2.9
         with:
           key: win-${{env.BUILD_TYPE}}
+          variant: ccache
 
       - name: Configure CMake
         # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
