@@ -20,8 +20,3 @@ add_executable(${JLE_GAME_BUILD}
         "cSineWave.cpp")
 
 include(${JLE_ENGINE_PATH}/cmake/game2.cmake)
-
-if (BUILD_GHA)
-   set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
-   set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache) # Less useful to do it for linking, see edit2
-endif ()

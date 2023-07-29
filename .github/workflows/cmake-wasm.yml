@@ -28,10 +28,10 @@ jobs:
       - name: Setup Emscripten SDK
         uses: mymindstorm/setup-emsdk@v11
         with:
-          version: 3.1.9
+          version: 3.1.43
 
       - name: Configure CMake with Emscripten SDK
-        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DBUILD_GHA=ON
+        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
 
       - name: Build
         run:
