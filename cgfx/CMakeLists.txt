@@ -22,8 +22,6 @@ add_executable(${JLE_GAME_BUILD}
 include(${JLE_ENGINE_PATH}/cmake/game2.cmake)
 
 if (BUILD_GHA)
-    set(CMAKE_C_COMPILER ccache "${EMSCRIPTEN_ROOT_PATH}/emcc${EMCC_SUFFIX}")
-    set(CMAKE_CXX_COMPILER ccache "${EMSCRIPTEN_ROOT_PATH}/em++${EMCC_SUFFIX}")
-    message("The C Compiler Is: \"${CMAKE_C_COMPILER}\"")
-    message("The CXX Compiler Is: \"${CMAKE_CXX_COMPILER}\"")
+   set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
+   set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache) # Less useful to do it for linking, see edit2
 endif ()
