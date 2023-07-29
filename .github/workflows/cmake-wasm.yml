@@ -23,7 +23,7 @@ jobs:
         uses: hendrikmuhs/ccache-action@v1.2.9
         with:
           key: wasm-Release
-          variant: ccache
+          variant: sccache
 
       - name: Setup Emscripten SDK
         uses: mymindstorm/setup-emsdk@v11
@@ -31,7 +31,7 @@ jobs:
           version: 3.1.43
 
       - name: Configure CMake with Emscripten SDK
-        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+        run: emcmake cmake cgfx -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release -DBUILD_EMSCRIPTEN=ON -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache
 
       - name: Build
         run:
