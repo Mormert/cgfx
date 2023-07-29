@@ -19,7 +19,7 @@ jobs:
       - name: Update Git Submodules
         run: git submodule update --init --recursive
 
-      - name: Ccache Setup
+      - name: Ccache Setup # ccache/sccache have been noted to not work fully for jle Wasm builds. (many cache misses, etc)
         uses: hendrikmuhs/ccache-action@v1.2.9
         with:
           key: wasm-Release
@@ -35,7 +35,7 @@ jobs:
 
       - name: Build
         run:
-          emmake make -C ${{github.workspace}}/build -j2
+          emmake make -C ${{github.workspace}}/build -j 4
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
