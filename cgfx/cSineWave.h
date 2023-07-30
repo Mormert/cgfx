@@ -20,10 +20,7 @@ public:
 
     template <class Archive>
     void
-    serialize(Archive &ar)
-    {
-        ar(CEREAL_NVP(_magnitudeY), CEREAL_NVP(_position), CEREAL_NVP(_speed));
-    }
+    serialize(Archive &ar);
 
     void editorUpdate(float dt) override{};
 
@@ -43,6 +40,9 @@ protected:
     float _speed{};
     glm::vec3 _position{};
 };
+
+
+JLE_EXTERN_TEMPLATE_CEREAL_H(cSineWave)
 
 CEREAL_REGISTER_TYPE(cSineWave)
 CEREAL_REGISTER_POLYMORPHIC_RELATION(jleComponent, cSineWave)
