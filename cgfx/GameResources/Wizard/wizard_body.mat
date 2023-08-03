@@ -5,10 +5,10 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "albedoTextureRef": "GR:/Wizard/Aqua_Wizard_Body_Diffuse.png",
-                "normalTextureRef": "",
-                "metallicTextureRef": "",
-                "roughnessTextureRef": ""
+                "_albedoTextureRef": "GR:/Wizard/Aqua_Wizard_Body_Diffuse.png",
+                "_normalTextureRef": "",
+                "_metallicTextureRef": "",
+                "_roughnessTextureRef": ""
             }
         }
     }

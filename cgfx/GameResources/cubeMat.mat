@@ -5,10 +5,10 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "albedoTextureRef": "GR:/textures/ColorPalette.png",
-                "normalTextureRef": "",
-                "metallicTextureRef": "",
-                "roughnessTextureRef": ""
+                "_albedoTextureRef": "GR:/textures/ColorPalette.png",
+                "_normalTextureRef": "",
+                "_metallicTextureRef": "",
+                "_roughnessTextureRef": ""
             }
         }
     }

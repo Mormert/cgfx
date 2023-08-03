@@ -5,22 +5,22 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "albedoTextureRef": {
+                "_albedoTextureRef": {
                     "path": {
                         "_virtualPath": ""
                     }
                 },
-                "normalTextureRef": {
+                "_normalTextureRef": {
                     "path": {
                         "_virtualPath": ""
                     }
                 },
-                "metallicTextureRef": {
+                "_metallicTextureRef": {
                     "path": {
                         "_virtualPath": ""
                     }
                 },
-                "roughnessTextureRef": {
+                "_roughnessTextureRef": {
                     "path": {
                         "_virtualPath": ""
                     }

@@ -95,7 +95,7 @@ function test.update(self, dt)
         m4:set(1, vec4.new(2))
         -- LOGE(tostring(m4:get(1).y))
         local vecsoo = vec2.new(1, 2):length()
-        LOGF("vecsoo " .. tostring(self.cLight.color))
+        --LOGF("vecsoo " .. tostring(self.cLight.color))
 
         p = vec4.new(5)
         s = vec4.new(p) * 2

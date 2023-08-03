@@ -5,10 +5,11 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "albedoTextureRef": "GR:/City/city.png",
-                "normalTextureRef": "",
-                "metallicTextureRef": "",
-                "roughnessTextureRef": ""
+                "_shaderRef": "ER:/shaders/defaultMesh.glsl",
+                "_albedoTextureRef": "GR:/City/city.png",
+                "_normalTextureRef": "",
+                "_metallicTextureRef": "",
+                "_roughnessTextureRef": ""
             }
         }
     }

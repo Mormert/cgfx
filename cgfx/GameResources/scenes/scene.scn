@@ -498,6 +498,77 @@
                                 ]
                             }
                         }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483668,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "camera",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": 1.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 1.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 0.0,
+                                            "y": -49.531394958496097,
+                                            "z": -13.163254737854004,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483654,
+                                        "polymorphic_name": "cCamera",
+                                        "ptr_wrapper": {
+                                            "id": 2147483669,
+                                            "data": {
+                                                "_perspective": true,
+                                                "_farPlane": 10000.0,
+                                                "_nearPlane": 0.10000000149011612,
+                                                "_perspectiveFov": 90.0,
+                                                "_framebufferSizeX": 1024,
+                                                "_framebufferSizeY": 1024,
+                                                "_framebufferUseFixedAxis": false,
+                                                "_matchFramebufferToWindowSize": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 2147483655,
+                                        "polymorphic_name": "cCameraFPV",
+                                        "ptr_wrapper": {
+                                            "id": 2147483670,
+                                            "data": {
+                                                "_moveSpeed": 100.0,
+                                                "_mouseSensitivity": 1.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     }
                 ]
             }

@@ -66,7 +66,7 @@ cgfx::update(float dt)
     }
 
     for (auto &&cube : _staticCubes) {
-        // gEngine->rendering().rendering3d().sendExampleCube(cube);
+        // gEngine->renderGraph().sendExampleCube(cube);
     }
 
     auto model = glm::mat4{1.f};
