@@ -61,7 +61,7 @@ cgfx::start()
 void
 cgfx::update(float dt)
 {
-    if (gCore->input().keyboard->keyPressed(jleKey::Q)) {
+    if (gEngine->input().keyboard->keyPressed(jleKey::Q)) {
         generateCubePositions();
     }
 
