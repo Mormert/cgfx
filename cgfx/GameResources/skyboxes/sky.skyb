@@ -5,36 +5,12 @@
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "_right": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_right.jpg"
-                    }
-                },
-                "_left": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_left.jpg"
-                    }
-                },
-                "_bottom": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_bottom.jpg"
-                    }
-                },
-                "_top": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_top.jpg"
-                    }
-                },
-                "_front": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_front.jpg"
-                    }
-                },
-                "_back": {
-                    "path": {
-                        "_virtualPath": "GR:/skyboxes/sea_back.jpg"
-                    }
-                }
+                "_right": "GR:/skyboxes/sea_right.jpg",
+                "_left": "GR:/skyboxes/sea_left.jpg",
+                "_bottom": "GR:/skyboxes/sea_bottom.jpg",
+                "_top": "GR:/skyboxes/sea_top.jpg",
+                "_front": "GR:/skyboxes/sea_front.jpg",
+                "_back": "GR:/skyboxes/sea_back.jpg"
             }
         }
     }
