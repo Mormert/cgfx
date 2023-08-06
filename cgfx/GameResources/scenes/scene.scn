@@ -615,7 +615,7 @@
                                         "ptr_wrapper": {
                                             "id": 2147483672,
                                             "data": {
-                                                "_skybox": "GR:/skyboxes/sky.skyb"
+                                                "_skybox": "ER:/skybox/default.skyb"
                                             }
                                         }
                                     }

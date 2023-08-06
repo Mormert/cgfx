@@ -1,15 +1,40 @@
 {
     "value0": {
         "polymorphic_id": 2147483649,
-        "polymorphic_name": "jleMaterial",
+        "polymorphic_name": "jleMaterialPBR",
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "_shaderRef": "ER:/shaders/defaultMesh.glsl",
-                "_albedoTextureRef": "GR:/City/city.png",
-                "_normalTextureRef": "",
-                "_metallicTextureRef": "",
-                "_roughnessTextureRef": ""
+                "value0": {
+                    "_shaderRef": "ER:/shaders/defaultMesh.glsl"
+                },
+                "_albedo": {
+                    "_color": {
+                        "x": 0.14481297135353089,
+                        "y": 0.700421929359436,
+                        "z": 0.21514315903186799
+                    },
+                    "_textureRef": "GR:/City/city.png"
+                },
+                "_normal": {
+                    "_color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                    },
+                    "_textureRef": ""
+                },
+                "_metallic": {
+                    "_alpha": 0.0,
+                    "_textureRef": ""
+                },
+                "_roughness": {
+                    "_alpha": 0.08299999684095383,
+                    "_textureRef": ""
+                },
+                "_usePointShadows": true,
+                "_useDirectionalShadows": true,
+                "_useSkyboxEnvironmentMap": false
             }
         }
     }

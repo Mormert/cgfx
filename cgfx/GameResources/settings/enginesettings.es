@@ -14,7 +14,7 @@
                     "iconPath": "ED:/jle_default_icon.png",
                     "isRezisable": true,
                     "shouldDisplayCursor": true,
-                    "isCappedFps": true
+                    "isCappedFps": false
                 }
             }
         }

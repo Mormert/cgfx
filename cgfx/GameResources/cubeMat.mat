@@ -1,14 +1,14 @@
 {
     "value0": {
         "polymorphic_id": 2147483649,
-        "polymorphic_name": "jleMaterial",
+        "polymorphic_name": "jleMaterialPBR",
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "_albedoTextureRef": "GR:/textures/ColorPalette.png",
-                "_normalTextureRef": "",
-                "_metallicTextureRef": "",
-                "_roughnessTextureRef": ""
+                "_albedo": "GR:/textures/ColorPalette.png",
+                "_normal": "",
+                "_metallic": "",
+                "_roughness": ""
             }
         }
     }

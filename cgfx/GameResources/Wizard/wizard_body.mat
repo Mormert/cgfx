@@ -1,14 +1,26 @@
 {
     "value0": {
         "polymorphic_id": 2147483649,
-        "polymorphic_name": "jleMaterial",
+        "polymorphic_name": "jleMaterialPBR",
         "ptr_wrapper": {
             "id": 2147483649,
             "data": {
-                "_albedoTextureRef": "GR:/Wizard/Aqua_Wizard_Body_Diffuse.png",
-                "_normalTextureRef": "",
-                "_metallicTextureRef": "",
-                "_roughnessTextureRef": ""
+                "value0": {
+                    "_shaderRef": "ER:/shaders/defaultMesh.glsl"
+                },
+                "_albedo": "GR:/Wizard/Aqua_Wizard_Body_Diffuse.png",
+                "_normal": "",
+                "_metallic": "",
+                "_roughness": "",
+                "_textureOrColor": {
+                    "_color": {
+                        "x": 22.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "_textureRef": ""
+                }
             }
         }
     }
