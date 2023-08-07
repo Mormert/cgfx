@@ -8,10 +8,33 @@
                 "value0": {
                     "_shaderRef": "ER:/shaders/defaultMesh.glsl"
                 },
-                "_albedo": "GR:/Wizard/Aqua_Wizard_Outfit_Diffuse.png",
-                "_normal": "",
-                "_metallic": "",
-                "_roughness": ""
+                "_albedo": {
+                    "_color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_textureRef": "GR:/Wizard/Aqua_Wizard_Outfit_Diffuse.png"
+                },
+                "_normal": {
+                    "_color": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                    },
+                    "_textureRef": ""
+                },
+                "_metallic": {
+                    "_alpha": 0.0,
+                    "_textureRef": ""
+                },
+                "_roughness": {
+                    "_alpha": 0.3790000081062317,
+                    "_textureRef": ""
+                },
+                "_usePointShadows": true,
+                "_useDirectionalShadows": true,
+                "_useSkyboxEnvironmentMap": false
             }
         }
     }
