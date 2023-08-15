@@ -6,7 +6,7 @@
             "id": 2147483649,
             "data": {
                 "windowSettings": {
-                    "WindowTitle": "CGFX",
+                    "WindowTitle": "jle cgfx - testbed for jle",
                     "width": 1920,
                     "height": 1080,
                     "widthMin": 500,
