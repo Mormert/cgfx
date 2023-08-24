@@ -54,7 +54,7 @@ cgfx::start()
     _pbrCube = makePbrCube();
 
     generateCubePositions();
-    auto path = jlePath{"GR:scenes/scene.scn"};
+    auto path = jlePath{"GR:scenes/anim.scn"};
     loadScene(path);
 }
 
