@@ -15,70 +15,6 @@
                                 "__templatePath": {
                                     "nullopt": true
                                 },
-                                "_instanceName": "jleObject_0",
-                                "_transform": {
-                                    "_local": {
-                                        "value0": {
-                                            "x": 0.10000000149011612,
-                                            "y": 0.0,
-                                            "z": 0.0,
-                                            "w": 0.0
-                                        },
-                                        "value1": {
-                                            "x": 0.0,
-                                            "y": -0.09998476505279541,
-                                            "z": 0.0017453412292525173,
-                                            "w": 0.0
-                                        },
-                                        "value2": {
-                                            "x": 0.0,
-                                            "y": -0.0017453412292525173,
-                                            "z": -0.09998476505279541,
-                                            "w": 0.0
-                                        },
-                                        "value3": {
-                                            "x": 40.93900680541992,
-                                            "y": -0.2315414696931839,
-                                            "z": -13.29294490814209,
-                                            "w": 1.0
-                                        }
-                                    }
-                                },
-                                "__childObjects": [],
-                                "_components": [
-                                    {
-                                        "polymorphic_id": 2147483650,
-                                        "polymorphic_name": "cSkinnedMesh",
-                                        "ptr_wrapper": {
-                                            "id": 2147483651,
-                                            "data": {
-                                                "_skinnedMeshRef": "GR:/anim/blenderModel.fbx",
-                                                "_materialRef": "GR:/anim/anim.mat"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "polymorphic_id": 2147483651,
-                                        "polymorphic_name": "cAnimator",
-                                        "ptr_wrapper": {
-                                            "id": 2147483652,
-                                            "data": {
-                                                "_currentAnimation": "GR:/anim/blenderWave.fbx"
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    {
-                        "polymorphic_id": 1073741824,
-                        "ptr_wrapper": {
-                            "id": 2147483653,
-                            "data": {
-                                "__templatePath": {
-                                    "nullopt": true
-                                },
                                 "_instanceName": "jleObject_1",
                                 "_transform": {
                                     "_local": {
@@ -111,10 +47,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483652,
+                                        "polymorphic_id": 2147483650,
                                         "polymorphic_name": "cLight",
                                         "ptr_wrapper": {
-                                            "id": 2147483654,
+                                            "id": 2147483651,
                                             "data": {
                                                 "_color": {
                                                     "x": 15.0,
@@ -131,7 +67,7 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483655,
+                            "id": 2147483652,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
@@ -160,7 +96,7 @@
                                         "value3": {
                                             "x": 0.0,
                                             "y": 4.639162063598633,
-                                            "z": 0.0,
+                                            "z": 9.5367431640625e-7,
                                             "w": 1.0
                                         }
                                     }
@@ -168,10 +104,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_id": 2147483651,
                                         "polymorphic_name": "cMesh",
                                         "ptr_wrapper": {
-                                            "id": 2147483656,
+                                            "id": 2147483653,
                                             "data": {
                                                 "_meshRef": "ER:/models/cube.fbx",
                                                 "_materialRef": "ED:/gizmos/models/camera/camera.mat"
@@ -185,7 +121,7 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483657,
+                            "id": 2147483654,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
@@ -222,10 +158,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483654,
+                                        "polymorphic_id": 2147483652,
                                         "polymorphic_name": "cLightDirectional",
                                         "ptr_wrapper": {
-                                            "id": 2147483658,
+                                            "id": 2147483655,
                                             "data": {
                                                 "value0": {
                                                     "_color": {
@@ -244,7 +180,7 @@
                     {
                         "polymorphic_id": 1073741824,
                         "ptr_wrapper": {
-                            "id": 2147483659,
+                            "id": 2147483656,
                             "data": {
                                 "__templatePath": {
                                     "nullopt": true
@@ -253,21 +189,21 @@
                                 "_transform": {
                                     "_local": {
                                         "value0": {
-                                            "x": 0.10000000149011612,
+                                            "x": 0.002499965950846672,
                                             "y": 0.0,
                                             "z": 0.0,
                                             "w": 0.0
                                         },
                                         "value1": {
                                             "x": 0.0,
-                                            "y": -0.09998476505279541,
-                                            "z": 0.0017453412292525173,
+                                            "y": -1.0927846821884302e-10,
+                                            "z": -0.0024999999441206457,
                                             "w": 0.0
                                         },
                                         "value2": {
                                             "x": 0.0,
-                                            "y": -0.0017453412292525173,
-                                            "z": -0.09998476505279541,
+                                            "y": 0.0024999999441206457,
+                                            "z": -1.0927846821884302e-10,
                                             "w": 0.0
                                         },
                                         "value3": {
@@ -281,9 +217,10 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2,
+                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_name": "cSkinnedMesh",
                                         "ptr_wrapper": {
-                                            "id": 2147483660,
+                                            "id": 2147483657,
                                             "data": {
                                                 "_skinnedMeshRef": "GR:/anim/dancingModel.fbx",
                                                 "_materialRef": "GR:/anim/anim.mat"
@@ -291,73 +228,12 @@
                                         }
                                     },
                                     {
-                                        "polymorphic_id": 3,
+                                        "polymorphic_id": 2147483654,
+                                        "polymorphic_name": "cAnimator",
                                         "ptr_wrapper": {
-                                            "id": 2147483661,
+                                            "id": 2147483658,
                                             "data": {
-                                                "_currentAnimation": "GR:/anim/dancingAnim.fbx"
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    {
-                        "polymorphic_id": 1073741824,
-                        "ptr_wrapper": {
-                            "id": 2147483662,
-                            "data": {
-                                "__templatePath": {
-                                    "nullopt": true
-                                },
-                                "_instanceName": "jleObject_0",
-                                "_transform": {
-                                    "_local": {
-                                        "value0": {
-                                            "x": 0.10000000149011612,
-                                            "y": 0.0,
-                                            "z": 0.0,
-                                            "w": 0.0
-                                        },
-                                        "value1": {
-                                            "x": 0.0,
-                                            "y": -0.09998476505279541,
-                                            "z": 0.0017453412292525173,
-                                            "w": 0.0
-                                        },
-                                        "value2": {
-                                            "x": 0.0,
-                                            "y": -0.0017453412292525173,
-                                            "z": -0.09998476505279541,
-                                            "w": 0.0
-                                        },
-                                        "value3": {
-                                            "x": 21.07611846923828,
-                                            "y": -0.2315414696931839,
-                                            "z": -13.29294490814209,
-                                            "w": 1.0
-                                        }
-                                    }
-                                },
-                                "__childObjects": [],
-                                "_components": [
-                                    {
-                                        "polymorphic_id": 2,
-                                        "ptr_wrapper": {
-                                            "id": 2147483663,
-                                            "data": {
-                                                "_skinnedMeshRef": "GR:/anim/mutant.fbx",
-                                                "_materialRef": "GR:/anim/anim.mat"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "polymorphic_id": 3,
-                                        "ptr_wrapper": {
-                                            "id": 2147483664,
-                                            "data": {
-                                                "_currentAnimation": "GR:/anim/mutantIdle.fbx"
+                                                "_currentAnimation": "GR:/anim/dancingModel.fbx"
                                             }
                                         }
                                     }
