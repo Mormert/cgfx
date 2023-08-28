@@ -189,7 +189,71 @@
                                 "_transform": {
                                     "_local": {
                                         "value0": {
-                                            "x": 0.002499965950846672,
+                                            "x": 1.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "value1": {
+                                            "x": 0.0,
+                                            "y": -1.0,
+                                            "z": -0.0000018199258420281695,
+                                            "w": 0.0
+                                        },
+                                        "value2": {
+                                            "x": 0.0,
+                                            "y": 0.0000018199258420281695,
+                                            "z": -1.0,
+                                            "w": 0.0
+                                        },
+                                        "value3": {
+                                            "x": 70.57955169677735,
+                                            "y": -0.0004129563458263874,
+                                            "z": -43.380332946777347,
+                                            "w": 1.0
+                                        }
+                                    }
+                                },
+                                "__childObjects": [],
+                                "_components": [
+                                    {
+                                        "polymorphic_id": 2147483653,
+                                        "polymorphic_name": "cSkinnedMesh",
+                                        "ptr_wrapper": {
+                                            "id": 2147483657,
+                                            "data": {
+                                                "_skinnedMeshRef": "GR:/workergirl/prev3.fbx",
+                                                "_materialRef": "GR:/anim/anim.mat"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "polymorphic_id": 2147483654,
+                                        "polymorphic_name": "cAnimator",
+                                        "ptr_wrapper": {
+                                            "id": 2147483658,
+                                            "data": {
+                                                "_currentAnimation": "GR:/workergirl/prev3.fbx"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 1073741824,
+                        "ptr_wrapper": {
+                            "id": 2147483659,
+                            "data": {
+                                "__templatePath": {
+                                    "nullopt": true
+                                },
+                                "_instanceName": "jleObject_0",
+                                "_transform": {
+                                    "_local": {
+                                        "value0": {
+                                            "x": 0.002499918220564723,
                                             "y": 0.0,
                                             "z": 0.0,
                                             "w": 0.0
@@ -217,10 +281,9 @@
                                 "__childObjects": [],
                                 "_components": [
                                     {
-                                        "polymorphic_id": 2147483653,
-                                        "polymorphic_name": "cSkinnedMesh",
+                                        "polymorphic_id": 5,
                                         "ptr_wrapper": {
-                                            "id": 2147483657,
+                                            "id": 2147483660,
                                             "data": {
                                                 "_skinnedMeshRef": "GR:/anim/dancingModel.fbx",
                                                 "_materialRef": "GR:/anim/anim.mat"
@@ -228,10 +291,9 @@
                                         }
                                     },
                                     {
-                                        "polymorphic_id": 2147483654,
-                                        "polymorphic_name": "cAnimator",
+                                        "polymorphic_id": 6,
                                         "ptr_wrapper": {
-                                            "id": 2147483658,
+                                            "id": 2147483661,
                                             "data": {
                                                 "_currentAnimation": "GR:/anim/dancingModel.fbx"
                                             }
